@@ -105,6 +105,6 @@
             });
 
             //** Default
-            $urlRouterProvider.otherwise('/app/overview');
+            $urlRouterProvider.otherwise('/app/history');
         });
 })();
