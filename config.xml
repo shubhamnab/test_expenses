@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.KidsTutor"
+        id          = "com.phonegap.ExpenseController"
         version     = "1.0.1"
         versionCode = "11" >
 
@@ -10,7 +10,7 @@
 
         <preference name="phonegap-version" value="cli-5.2.0" />
 
-        <name>Kids Tutor</name>
+        <name>Expense Controller</name>
 
         <description>
         Expense manager App. 
