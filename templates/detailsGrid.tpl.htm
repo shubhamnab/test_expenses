@@ -1,13 +1,13 @@
-<ion-view title="Details Grid">
+<ion-view title="Details">
     
-<input type="button" class=" btn btn-success btn-sm" style="float:right" onclick="printDiv('print_order')" value="Print Your Order" />
+
 
     <!-- set overflow-scroll="true" and hand scrolling to native -->
     <div id="print_order">
     <ion-content class="has-header" overflow-scroll="true">
         <!-- set style="position:relative" to support scrolling and editing -->
         <wj-flex-grid auto-generate-columns="false" items-source="data" selection-mode="Row" row-edit-ending="rowEditEnding(s,e)" style="position:relative">
-            <wj-flex-grid-column width="2*" min-width="250" header="Title" binding="title"></wj-flex-grid-column>
+            <wj-flex-grid-column width="2*" min-width="150" header="Title" binding="title"></wj-flex-grid-column>
             <wj-flex-grid-column width="*" min-width="100" header="Amount" binding="amount" format="c2"></wj-flex-grid-column>
             <wj-flex-grid-column width="*" min-width="100" header="Date" binding="date"></wj-flex-grid-column>
             <wj-flex-grid-column width="2*" min-width="250" header="Description" binding="description"></wj-flex-grid-column>
